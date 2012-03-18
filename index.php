@@ -27,10 +27,11 @@ $currpage = array(
 
       <div id="menu">
         <ul>
-          <li class="selected"><a href="/">Контактные данные</a></li>
-          <li><a href="/nasch-detzki-sad.html">Наш Детский Сад</a></li>
-          <li><a href="/rebenka.html">Программа развития ребенка</a></li>
-          <li><a href="/reschim-dnja.html">Режим дня</a></li>
+          <li class="selected"><a href="/">Urlaub am Baikal</a></li>
+          <li><a href="/nasch-detzki-sad.html">Preise</a></li>
+          <li><a href="/rebenka.html">Angebote</a></li>
+          <li><a href="/reschim-dnja.html">Anfragen oder Reservieren</a></li>
+          <li><a href="/reschim-dnja.html">Wetter</a></li>
         </ul>
       </div>
 
@@ -72,6 +73,15 @@ $currpage = array(
           </div>
         </div>
       </div>
+
+        <div id="sidebar">
+            <ul>
+                <li><a href="http://ru.wikipedia.org/wiki/Педагогика_Монтессори" title="Марией Монтессори">Unterkünfte</a></li>
+                <li><a href="http://www.umnitsa.ru/metodiki_umnicy/metodika_domana-manichenko/" title="Домана-Маниченко">Umgebung</a></li>
+                <li><a href="http://ru.wikipedia.org/wiki/Тест_Равена" title="методика &laquo;Равена&raquo;">Aktivitäten</a></li>
+            </ul>
+            <div id="sidebar-bottom"></div>
+        </div>
 
       <div class="sidebar-images">
         <div id="vk_like"></div>

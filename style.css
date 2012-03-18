@@ -9,7 +9,7 @@ Author URI: http://www.ginger-ninja.net/
 /* Generic Styling */
 
 body {
-	background:url(images/bg-body.png) repeat-x top center #E8F7F9;
+/*	background:url(images/bg-body.png) repeat-x top center #E8F7F9;*/
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:62.5%; /* Sets default font size to 10px */
 	color:#222222;
@@ -43,8 +43,9 @@ a:hover {
 
 	}
 #header {
-	height:160px;
-	background:url(images/picture_overview2.jpg) no-repeat;
+	height:80px;
+        padding-top: 20px;
+/*	background:url(images/picture_overview2.jpg) no-repeat;*/
         position: relative;
 	}
 
@@ -53,19 +54,19 @@ a:hover {
     color: #000;
     font-weight: bold;
     font-size: 25px;
-    height:160px;
+/*    height:160px;*/
 }
 
 #header .page-title a {
   display: block;
-  height:160px;
+/*  height:160px;*/
 }
 
 #header .page-title span {
   color: #000;
-  margin-left: 512px;
+/*  margin-left: 512px;*/
   display: inline-block;
-  width: 190px;
+/*  width: 190px;*/
   text-align: center;
   vertical-align: middle;
 }
@@ -76,14 +77,14 @@ a:hover {
 
 
 
-#header small {
+/*#header small {
     position: absolute;
     top: 120px;
     right: 0px;
     font-size: 18px;
     width: 190px;
     text-align: center;
-}
+}*/
 
 #menu {
 	height:35px;
@@ -207,28 +208,30 @@ a:hover {
 #menu li a:hover,
 #menu li.selected a {
 	/*background:url(images/bg-menu-hover.png) no-repeat center center;*/
-        background: red;
+/*        background: red;*/
+    text-decoration: underline;
 	}
 
 #menu li + li a:hover,
 #menu li + li.selected a {
-    background: yellow;
-    color: #000;
+/*    background: yellow;*/
+/*    color: #000;*/
+    text-decoration: underline;
 
 }
 #menu li + li + li a:hover,
 #menu li + li + li.selected a {
     color: #fff;
-    background: green;
+/*    background: green;*/
 }
 
 #menu li + li + li + li a:hover,
 #menu li + li + li + li.selected a {
-    background: orange;
+/*    background: orange;*/
     color: #fff;
 }
 #menu li + li + li + li + li a:hover {
-    background:  fuchsia;
+/*    background:  fuchsia;*/
     color: #fff;
 }
 
