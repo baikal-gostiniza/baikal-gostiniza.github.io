@@ -26,6 +26,11 @@
     </script>
     <!--<script src="http://vkontakte.ru/js/api/xd_connection.js" type="text/javascript"></script>-->
     <script type="text/javascript" src="http://userapi.com/js/api/openapi.js?28"></script>
+    <script type="text/javascript" src="/js/fancybox/lib/jquery-1.7.1.min.js"></script>
+
+    <link rel="stylesheet" href="/js/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="/js/fancybox/source/jquery.fancybox.pack.js"></script>
+
 
     <script type="text/javascript">
       VK.init({

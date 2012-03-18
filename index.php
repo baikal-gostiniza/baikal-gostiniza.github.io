@@ -58,6 +58,15 @@ $currpage = array(
           <blockquote>
 
           </blockquote>-->
+        </div>
+        <div class="entry">
+          <h2>Fotos</h2>
+          <a href="/images/baikal/y_2aeb36ca.jpg" class="fancybox" rel="gallery2" title="Sample title 1"><img width="100" height="100" src="/images/baikal/y_2aeb36ca.jpg" /></a>
+          <a href="/images/baikal/y_52362f2a.jpg" class="fancybox" rel="gallery2" title="Sample title 2"><img width="100" height="100" src="/images/baikal/y_52362f2a.jpg" /></a>
+        </div>
+
+        <div class="entry">
+
           <h2>Адрес</h2>
           <div class="vcard">
             <div class="fn org"><b>Частный детский сад Алёнушка</b></div>
@@ -86,14 +95,14 @@ $currpage = array(
       <div class="sidebar-images">
         <div id="vk_like"></div>
 
-        <script type="text/javascript">
+<!--        <script type="text/javascript">
         VK.Widgets.Like("vk_like", {
           width: 150,
           type: "button",
           pageTitle: 'Частный Детсад Улан-Удэ - "Алёнушка"',
           pageUrl: 'http://ulan-ude.detsad-alionoschka.de/'
         });
-        </script>
+        </script>-->
 
         <div class="image">
           <!--<img src="images/kinder/kinder_1.jpg" alt="Kinder 1"/>-->
@@ -103,6 +112,12 @@ $currpage = array(
       <?php include 'includes/footer.inc.php'; ?>
 
     </div>
+
+    <script>
+        $(document).ready(function() {
+            $('.fancybox').fancybox();
+        });
+    </script>
 
   </body>
 </html>

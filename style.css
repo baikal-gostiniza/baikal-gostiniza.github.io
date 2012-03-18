@@ -106,7 +106,7 @@ a:hover {
 #footer {
 	clear:both;
 	height:100px;
-	background:url(images/kinder/collection.jpg) no-repeat;
+/*	background:url(images/kinder/collection.jpg) no-repeat;*/
 	}
 
 /* Entries */
@@ -140,7 +140,7 @@ a:hover {
 }
 
 .entry img {
-    float: left;
+/*    float: left;*/
     margin: 0px 5px 5px 0px;
 }
 
