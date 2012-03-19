@@ -9,7 +9,7 @@ Author URI: http://www.ginger-ninja.net/
 /* Generic Styling */
 
 body {
-/*	background:url(images/bg-body.png) repeat-x top center #E8F7F9;*/
+	background:url(images/abstract_background_orange.jpg) repeat-x top center #E8F7F9;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:62.5%; /* Sets default font size to 10px */
 	color:#222222;
@@ -43,17 +43,20 @@ a:hover {
 
 	}
 #header {
-	height:80px;
-        padding-top: 20px;
-/*	background:url(images/picture_overview2.jpg) no-repeat;*/
+	height:140px;
+        padding-top: 5px;
+        padding-left: 20px;
+	background:url(images/baikal/z_ef05809b.jpg) no-repeat scroll -400px -310px;
         position: relative;
+/*        text-shadow: #c0c0c0 3px 3px 1px;*/
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        color: #ff6630;
 	}
 
 #header .page-title {
     display: inline-block;
-    color: #000;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 27pt;
 /*    height:160px;*/
 }
 
@@ -63,7 +66,7 @@ a:hover {
 }
 
 #header .page-title span {
-  color: #000;
+    color: #ff6630;
 /*  margin-left: 512px;*/
   display: inline-block;
 /*  width: 190px;*/
@@ -77,14 +80,11 @@ a:hover {
 
 
 
-/*#header small {
-    position: absolute;
-    top: 120px;
-    right: 0px;
-    font-size: 18px;
+#header small {
+    font-size: 14pt;
     width: 190px;
     text-align: center;
-}*/
+}
 
 #menu {
 	height:35px;

@@ -1,6 +1,6 @@
 <?php
 $currpage = array(
-  'title' => 'Частный Детсад Улан-Удэ - &laquo;Алёнушка&raquo;',
+  'title' => 'Super Site',
   'meta'  => array(
     'language'     => 'ru',
     'title'        => 'Контактные данные - Частный Детский Сад &laquo;Алёнушка&raquo; в Улан-Удэ',
@@ -21,17 +21,18 @@ $currpage = array(
     <div id="wrapper">
 
       <div id="header">
-        <span class="page-title"><a href="/"><span>Частный Детский Сад &laquo;Алёнушка&raquo;</span></a></span>
-        <small>в Улан-Удэ</small>
+        <span class="page-title"><a href="/"><span>Райский Уголок</span></a></span>
+        <br/><small>база отдыха в Максимихе</small>
       </div>
 
       <div id="menu">
         <ul>
-          <li class="selected"><a href="/">Urlaub am Baikal</a></li>
+          <li class="selected"><a href="/">Unterkunft</a></li>
           <li><a href="/nasch-detzki-sad.html">Preise</a></li>
-          <li><a href="/rebenka.html">Angebote</a></li>
-          <li><a href="/reschim-dnja.html">Anfragen oder Reservieren</a></li>
-          <li><a href="/reschim-dnja.html">Wetter</a></li>
+          <li><a href="/rebenka.html">Aktivitäten</a></li>
+          <li><a href="/reschim-dnja.html">Anfahrt</a></li>
+          <li><a href="/reschim-dnja.html">Bilder</a></li>
+          <li><a href="/reschim-dnja.html">Referenzen</a></li>
         </ul>
       </div>
 
@@ -41,7 +42,7 @@ $currpage = array(
         </div>
         <div class="entry">
           <h1 class="entry-title">Контактные данные</h1>
-          <!--<p id="vk_like"></p>-->
+          <p id="vk_like"></p>
           <p>
             <strong><em>Наш Детский Сад- это центр радости для малышей и их родителей в Улан-Удэ!</em></strong>
           </p>
@@ -54,10 +55,6 @@ $currpage = array(
             <br/>
             Звоните, мы будем рады видеть Вас! Цена приятно Вас удивит.
           </p>
-          <!--<h2>Referenz</h2>
-          <blockquote>
-
-          </blockquote>-->
         </div>
         <div class="entry">
           <h2>Fotos</h2>
@@ -65,7 +62,7 @@ $currpage = array(
           <a href="/images/baikal/y_52362f2a.jpg" class="fancybox" rel="gallery2" title="Sample title 2"><img width="100" height="100" src="/images/baikal/y_52362f2a.jpg" /></a>
         </div>
 
-        <div class="entry">
+<!--        <div class="entry">
 
           <h2>Адрес</h2>
           <div class="vcard">
@@ -80,19 +77,22 @@ $currpage = array(
             <div><span class="tel"><i class="value">+7 (3012) 42-78-82</i></span></div>
             <a class="url" href="http://ulan-ude.detsad-alionoschka.de">http://ulan-ude.detsad-alionoschka.de</a>
           </div>
-        </div>
+        </div>-->
       </div>
 
-        <div id="sidebar">
+<!--        <div id="sidebar">
             <ul>
                 <li><a href="http://ru.wikipedia.org/wiki/Педагогика_Монтессори" title="Марией Монтессори">Unterkünfte</a></li>
                 <li><a href="http://www.umnitsa.ru/metodiki_umnicy/metodika_domana-manichenko/" title="Домана-Маниченко">Umgebung</a></li>
                 <li><a href="http://ru.wikipedia.org/wiki/Тест_Равена" title="методика &laquo;Равена&raquo;">Aktivitäten</a></li>
             </ul>
             <div id="sidebar-bottom"></div>
-        </div>
+        </div>-->
 
       <div class="sidebar-images">
+          <div>
+            <a href="/images/baikal/y_2aeb36ca.jpg" class="fancybox" rel="gallery2" title="Sample title 1"><img width="100" height="100" src="/images/baikal/y_2aeb36ca.jpg" /></a>
+          </div>
         <div id="vk_like"></div>
 
 <!--        <script type="text/javascript">
