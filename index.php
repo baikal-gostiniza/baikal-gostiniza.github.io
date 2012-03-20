@@ -21,19 +21,12 @@ $currpage = array(
     <div id="wrapper">
 
       <div id="header">
-        <span class="page-title"><a href="/"><span>Райский Уголок</span></a></span>
+        <span class="page-title"><a href="/"><span>Святой Нос - Райский уголок</span></a></span>
         <br/><small>база отдыха в Максимихе</small>
       </div>
 
       <div id="menu">
-        <ul>
-          <li class="selected"><a href="/">Unterkunft</a></li>
-          <li><a href="/nasch-detzki-sad.html">Preise</a></li>
-          <li><a href="/rebenka.html">Aktivitäten</a></li>
-          <li><a href="/reschim-dnja.html">Anfahrt</a></li>
-          <li><a href="/reschim-dnja.html">Bilder</a></li>
-          <li><a href="/reschim-dnja.html">Referenzen</a></li>
-        </ul>
+        <?php include ('includes/navigation.inc.php'); ?>
       </div>
 
       <div id="content">
@@ -41,25 +34,26 @@ $currpage = array(
           <!-- Insert 468x60 banner advertisement -->
         </div>
         <div class="entry">
-          <h1 class="entry-title">Контактные данные</h1>
-          <p id="vk_like"></p>
           <p>
-            <strong><em>Наш Детский Сад- это центр радости для малышей и их родителей в Улан-Удэ!</em></strong>
+              Звоните, мы будем рады видеть Вас!
           </p>
           <ul>
             <li>Тел.(круглосуточно): 42-78-82</li>
             <li>Сотовый тел: 8-924-655-91-99</li>
           </ul>
-          <p>
-            Часы работы детского сада: с 7:00 до 19:00
-            <br/>
-            Звоните, мы будем рады видеть Вас! Цена приятно Вас удивит.
-          </p>
         </div>
         <div class="entry">
-          <h2>Fotos</h2>
-          <a href="/images/baikal/y_2aeb36ca.jpg" class="fancybox" rel="gallery2" title="Sample title 1"><img width="100" height="100" src="/images/baikal/y_2aeb36ca.jpg" /></a>
-          <a href="/images/baikal/y_52362f2a.jpg" class="fancybox" rel="gallery2" title="Sample title 2"><img width="100" height="100" src="/images/baikal/y_52362f2a.jpg" /></a>
+          <h1 class="entry-title">комфортабельные номера по приемлимым ценам</h1>
+          <p>
+              База отдыха "Святой Нос - Райский уголок" располагается в одном из самых красивейших заливов Байкала -
+              Баргузинский залив. Чистые воды Священного моря, отмели, лучшие белоснежные песчаные пляжи, их еще
+              называют "Шагающие пляжи" - создали условия для приятного отдыха.
+          </p>
+          <h1 class="entry-title">Отдыхайте у нас прямо на берегу байкала!</h1>
+          <div class="entry">
+              <a href="/images/baikal/y_2aeb36ca.jpg" class="fancybox" rel="gallery2" title="Sample title 1"><img width="100" height="100" src="/images/baikal/y_2aeb36ca.jpg" /></a>
+              <a href="/images/baikal/y_52362f2a.jpg" class="fancybox" rel="gallery2" title="Sample title 2"><img width="100" height="100" src="/images/baikal/y_52362f2a.jpg" /></a>
+          </div>
         </div>
 
 <!--        <div class="entry">
@@ -93,7 +87,6 @@ $currpage = array(
           <div>
             <a href="/images/baikal/y_2aeb36ca.jpg" class="fancybox" rel="gallery2" title="Sample title 1"><img width="100" height="100" src="/images/baikal/y_2aeb36ca.jpg" /></a>
           </div>
-        <div id="vk_like"></div>
 
 <!--        <script type="text/javascript">
         VK.Widgets.Like("vk_like", {
@@ -112,12 +105,6 @@ $currpage = array(
       <?php include 'includes/footer.inc.php'; ?>
 
     </div>
-
-    <script>
-        $(document).ready(function() {
-            $('.fancybox').fancybox();
-        });
-    </script>
 
   </body>
 </html>

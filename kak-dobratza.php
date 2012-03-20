@@ -21,17 +21,12 @@ $currpage = array(
     <div id="wrapper">
 
       <div id="header">
-        <span class="page-title"><a href="/"><span>Частный Детский Сад &laquo;Алёнушка&raquo;</span></a></span>
-        <small>в Улан-Удэ</small>
+        <span class="page-title"><a href="/"><span>Святой Нос - Райский уголок</span></a></span>
+        <br/><small>база отдыха в Максимихе</small>
       </div>
 
       <div id="menu">
-        <ul>
-          <li><a href="/">Контактные данные</a></li>
-          <li><a href="/nasch-detzki-sad.html">Наш Детский Сад</a></li>
-          <li><a href="/rebenka.html">Программа развития ребенка</a></li>
-          <li class="selected"><a href="/reschim-dnja.html">Режим дня</a></li>
-        </ul>
+        <?php include ('includes/navigation.inc.php'); ?>
       </div>
 
       <div id="content">
@@ -39,28 +34,18 @@ $currpage = array(
           <!-- Insert 468x60 banner advertisement -->
         </div>
         <div class="entry">
-          <h1 class="entry-title">Режим дня b детсад Улан-Удэ</h1>
-            <table class="daily-routine">
-              <thead>
-                <tr>
-                  <th>С - До</th>
-                  <th></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr><th class="col-1">07:00 - 09:00</th><td>Прием детей (в любое удобное для Вас время);</td></tr>
-                <tr><th class="col-1">09:00 - 10:00</th><td>Зарядка и завтрак;</td></tr>
-                <tr><th class="col-1">10:00 - 11:00</th><td>Программа в кабинете психолога/логопеда; занятия с воспитателем;</td></tr>
-                <tr><th class="col-1">11:00 - 12:00</th><td>Прогулка на участке;</td></tr>
-                <tr><th class="col-1">12:00 - 12:15</th><td>Водные процедуры;</td></tr>
-                <tr><th class="col-1">12:15 - 13:00</th><td>Обед;</td></tr>
-                <tr><th class="col-1">13:00 - 15:00</th><td>Сон час;</td></tr>
-                <tr><th class="col-1">15:20 - 15:45</th><td>Полдник;</td></tr>
-                <tr><th class="col-1">16:00 - 17:00</th><td>Индивидуальная работа с психологом/тибетологом; занятия с воспитателем;</td></tr>
-                <tr><th class="col-1">17:00 - 18:00</th><td>Прогулка на участке;</td></tr>
-                <tr><th class="col-1">18:00 - 19:00</th><td>Родители забирают детей (в любое удобное для Вас время).</td></tr>
-              </tbody>
-            </table>
+          <h1 class="entry-title">Адрес</h1>
+          <p>
+              Баргузинский р-н, поселок Максимиха, ул.Байкальская, д.14 (в 235 км от г.Улан-Удэ, столица Бурятия),
+              Россия.
+              <br/>т.89246559199 т.647687
+              <br/>
+              Проезд с автовокзала г. Улан-Удэ маршрутными такси.
+              <br/>Время отправления из г. Улан-Удэ: Ежедневно в 8:00,
+              17:00.<br/>
+              Время в пути: 4 часа.<br/>
+              Стоимость билета: 400 руб.
+          </p>
         </div>
       </div>
 

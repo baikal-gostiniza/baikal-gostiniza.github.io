@@ -11,7 +11,7 @@ Author URI: http://www.ginger-ninja.net/
 body {
 	background:url(images/abstract_background_orange.jpg) repeat-x top center #E8F7F9;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size:62.5%; /* Sets default font size to 10px */
+/*	font-size:62.5%;  Sets default font size to 10px */
 	color:#222222;
 	}
 
@@ -37,16 +37,16 @@ a:hover {
 
 #wrapper {
 	margin:0 auto;
-	width:700px;
+	width:1004px;
 	background:#ffffff;
-	font-size:1.20em;
+	font-size:12pt;
 
 	}
 #header {
-	height:140px;
+	height:250px;
         padding-top: 5px;
         padding-left: 20px;
-	background:url(images/baikal/z_ef05809b.jpg) no-repeat scroll -400px -310px;
+	background:url(images/baikal/z_ef05809b.jpg) no-repeat scroll -200px -310px;
         position: relative;
 /*        text-shadow: #c0c0c0 3px 3px 1px;*/
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -100,7 +100,7 @@ a:hover {
 	}
 #content {
 	float:left;
-	width:500px;
+/*	width:500px;*/
         padding-top: 10px;
 	}
 #footer {
@@ -135,7 +135,6 @@ a:hover {
 .entry p,
 .entry ul,
 .entry ol {
-  font-size: 1.2em;
   margin-bottom: 1.1em;
 }
 
@@ -145,7 +144,7 @@ a:hover {
 }
 
 .entry ul, .entry ol {
-    list-style-position: inside;
+    list-style-position: outside;
 }
 
 .date {
@@ -207,10 +206,12 @@ a:hover {
 	}
 #menu li a:hover,
 #menu li.selected a {
-	/*background:url(images/bg-menu-hover.png) no-repeat center center;*/
-/*        background: red;*/
     text-decoration: underline;
-	}
+}
+#menu li.selected a {
+    background: orange;
+    color: #fff;
+}
 
 #menu li + li a:hover,
 #menu li + li.selected a {
@@ -332,4 +333,21 @@ a:hover.feed-button {
   #footer .geo,
   #footer .adr {
     visibility: hidden;
+}
+
+.entry {
+/*    font*/
+}
+
+.entry dt
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.entry dd
+{
+	margin: 0 0 1em 0;
+	padding: 0;
 }
