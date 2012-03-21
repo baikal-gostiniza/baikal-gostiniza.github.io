@@ -2,7 +2,7 @@
 require_once __DIR__.'/../silex.phar';
 
 /**
- * My Globals.
+ * Navigation.
  */
 $navigation = array(
     'homepage'      => 'Главная',
@@ -10,6 +10,7 @@ $navigation = array(
     'kak_dobratza'  => 'Как добраться',
     'rasvlecheniya' => 'Развлечение',
     'region'        => 'Регион',
+    'uslugi'        => 'Услуги',
 );
 
 $app = new Silex\Application();
@@ -42,5 +43,9 @@ $app->get('/rasvlecheniya.html', function() use($app, $navigation) {
 $app->get('/region.html', function() use($app, $navigation) {
     return $app['twig']->render('region.twig', array('navigation' => $navigation));
 })->bind('region');
+
+$app->get('/uslugi.html', function() use($app, $navigation) {
+    return $app['twig']->render('uslugi.twig', array('navigation' => $navigation));
+})->bind('uslugi');
 
 $app->run(); 
