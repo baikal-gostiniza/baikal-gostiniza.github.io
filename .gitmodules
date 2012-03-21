@@ -1,3 +1,9 @@
-[submodule "js/fancybox"]
-	path = js/fancybox
+[submodule "web/js/fancybox"]
+	path = web/js/fancybox
 	url = https://github.com/fancyapps/fancyBox.git
+[submodule "vendor/twig"]
+	path = vendor/twig
+	url = git://github.com/fabpot/Twig.git
+[submodule "vendor/symfony"]
+	path = vendor/symfony
+	url = git@github.com:symfony/symfony
