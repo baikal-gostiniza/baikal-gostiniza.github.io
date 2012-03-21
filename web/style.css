@@ -10,14 +10,9 @@ Author URI: http://www.ginger-ninja.net/
 
 body {
     background:url(images/abstract_background_orange.jpg) repeat-x top center #E8F7F9;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     /*	font-size:62.5%;  Sets default font size to 10px */
     color:#222222;
-}
-
-* {
-    margin:0;
-    padding:0;
 }
 
 img {
@@ -50,7 +45,7 @@ a:hover {
     position: relative;
     /*        text-shadow: #c0c0c0 3px 3px 1px;*/
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    color: #ff6630;
+    color: orange;
 }
 
 #header .page-title {
@@ -66,7 +61,7 @@ a:hover {
 }
 
 #header .page-title span {
-    color: #ff6630;
+    color: orange;
     /*  margin-left: 512px;*/
     display: inline-block;
     /*  width: 190px;*/
@@ -193,6 +188,8 @@ a:hover {
 
 #menu ul {
     list-style-type:none;
+    padding: 0px;
+    margin: 0px;
 }
 #menu li {
     float:left;
@@ -296,6 +293,9 @@ a:hover {
 }
 
 /* Heading's */
+h1,h2 {
+    font-family: Georgia;
+}
 
 h1 {
     font-size:2.5em;
@@ -303,7 +303,10 @@ h1 {
     cursor:default;
     letter-spacing:1px;
     color:#aaaaaa;
-    font-style:italic;
+}
+
+h2 {
+    
 }
 
 /* Feed */
