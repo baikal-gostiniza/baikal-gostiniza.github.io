@@ -9,7 +9,7 @@ Author URI: http://www.ginger-ninja.net/
 /* Generic Styling */
 
 body {
-    background:url(images/abstract_background_orange.jpg) repeat-x top center #E8F7F9;
+    background: transparent url(images/abstract_background_orange.jpg);
     font-family: Arial, sans-serif;
     /*	font-size:62.5%;  Sets default font size to 10px */
     color:#222222;
@@ -32,9 +32,9 @@ a:hover {
 
 #wrapper {
     margin:0 auto;
-    width:1004px;
+    width:780px;
     background:#ffffff;
-    font-size:12pt;
+    font-size:11pt;
 
 }
 #header {
@@ -99,7 +99,9 @@ a:hover {
 }
 #footer {
     clear:both;
-    height:100px;
+    text-align: center;
+    color: darkgray;
+    padding: 3px;
     /*	background:url(images/kinder/collection.jpg) no-repeat;*/
 }
 
@@ -352,4 +354,8 @@ a:hover.feed-button {
 {
     margin: 0 0 1em 0;
     padding: 0;
+}
+
+.ticked {
+    list-style-image: url('/images/tick.png');
 }
