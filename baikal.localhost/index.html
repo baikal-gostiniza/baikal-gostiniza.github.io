@@ -2,17 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ru" dir="ltr">
 
     <head>
-        <title>{%block title %}База отдыха Святой Нос - Райский уголок - Байкала{%endblock%}</title>
+        <title>База отдыха Святой Нос - Райский уголок - Байкала</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        {% block meta %}
-        <meta name="language" content="ru" />
+                <meta name="language" content="ru" />
         <meta name="title" content="База отдыха Святой Нос - Райский уголок - Байкала" />
         <meta name="keywords" content="База отдыха,турбаза байкал,Святой Нос,Байкала" />
         <meta name="description" content="Тел.(круглосуточно): 42-78-82; Сотовый тел: 8-924-655-91-99;  8-909-591-49-34. " />
         <meta name="robots" content="index,follow" />
         <meta name="date" content="2012-03-12 07:56" />
-        {% endblock %}
-
+        
         <link rel="stylesheet" href="/style.css" type="text/css" media="screen" />
         <script type="text/javascript">
 
@@ -56,20 +54,50 @@
 
             <div id="menu">
                 <ul>
-                {% for route,title in navigation %}
-                    {# Render current route differently then others. #}
-                    {% if app.request.attributes.get('_route') == route %}
-                    <li class="selected"><a href="{{ path(route) }}">{{ title }}</a></li>
-                    {% else %}
-                    <li><a href="{{ path(route) }}">{{ title }}</a></li>
-                    {% endif %}
-                {% endfor %}
-                </ul>
+                                                                            <li class="selected"><a href="/">Главная</a></li>
+                                                                                                <li><a href="/nomera-u-zeny.html">Номера и цены</a></li>
+                                                                                                <li><a href="/kak-dobratza.html">Как добраться</a></li>
+                                                                                                <li><a href="/rasvlecheniya.html">Развлечение</a></li>
+                                                                                                <li><a href="/region.html">Регион</a></li>
+                                                                                                <li><a href="/uslugi.html">Услуги</a></li>
+                                                    </ul>
             </div>
 
             <div id="content">
-                {% block content %}
-                {% endblock  %}
+                <div class="entry">
+    <h1 class="entry-title">База отдыха "Святой Нос - Райский уголок"</h1>
+    <p>
+        Располагается в одном из самых красивейших заливов Байкала -
+        Баргузинский залив. Чистые воды Священного моря, отмели, лучшие белоснежные песчаные пляжи, их еще
+        называют "Шагающие пляжи" - создали условия для приятного отдыха.
+    </p>
+    <h1 class="entry-title">Отдыхайте у нас прямо на берегу байкала!</h1>
+    <div class="entry">
+        <a href="/images/baikal/home/y_af762e98.jpg" class="fancybox" rel="gallery" title="">
+            <img width="100" height="100" src="/images/baikal/home/y_af762e98.jpg" />
+        </a>
+        <a href="/images/baikal/home/z_6bb260f4.jpg" class="fancybox" rel="gallery" title="">
+            <img width="100" height="100" src="/images/baikal/home/z_6bb260f4.jpg" />
+        </a>
+        <a href="/images/baikal/home/z_28f17023.jpg" class="fancybox" rel="gallery" title="">
+            <img width="100" height="100" src="/images/baikal/home/z_28f17023.jpg" />
+        </a>
+        <a href="/images/baikal/home/z_96a797c6.jpg" class="fancybox" rel="gallery" title="">
+            <img width="100" height="100" src="/images/baikal/home/z_96a797c6.jpg" />
+        </a>
+        <a href="/images/baikal/home/z_c2c13851.jpg" class="fancybox" rel="gallery" title="">
+            <img width="100" height="100" src="/images/baikal/home/z_c2c13851.jpg" />
+        </a>
+        <a href="/images/baikal/home/z_c31dedfd.jpg" class="fancybox" rel="gallery" title="">
+            <img width="100" height="100" src="/images/baikal/home/z_c31dedfd.jpg" />
+        </a>
+        <a href="/images/baikal/home/z_aaa0266d.jpg" class="fancybox" rel="gallery" title="">
+            <img width="100" height="100" src="/images/baikal/home/z_aaa0266d.jpg" />
+        </a>
+        <a href="/images/baikal/home/z_ef05809b.jpg" class="fancybox" rel="gallery" title="">
+            <img width="100" height="100" src="/images/baikal/home/z_ef05809b.jpg" /></a>
+    </div>
+</div>
             </div>
 
 <!--            <div class="sidebar-images">

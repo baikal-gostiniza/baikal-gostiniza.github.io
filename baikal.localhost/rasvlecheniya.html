@@ -2,17 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ru" dir="ltr">
 
     <head>
-        <title>{%block title %}База отдыха Святой Нос - Райский уголок - Байкала{%endblock%}</title>
+        <title>Развлечение - База отдыха Святой Нос - Райский уголок - Байкала</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        {% block meta %}
-        <meta name="language" content="ru" />
+                <meta name="language" content="ru" />
         <meta name="title" content="База отдыха Святой Нос - Райский уголок - Байкала" />
         <meta name="keywords" content="База отдыха,турбаза байкал,Святой Нос,Байкала" />
         <meta name="description" content="Тел.(круглосуточно): 42-78-82; Сотовый тел: 8-924-655-91-99;  8-909-591-49-34. " />
         <meta name="robots" content="index,follow" />
         <meta name="date" content="2012-03-12 07:56" />
-        {% endblock %}
-
+        
         <link rel="stylesheet" href="/style.css" type="text/css" media="screen" />
         <script type="text/javascript">
 
@@ -56,20 +54,30 @@
 
             <div id="menu">
                 <ul>
-                {% for route,title in navigation %}
-                    {# Render current route differently then others. #}
-                    {% if app.request.attributes.get('_route') == route %}
-                    <li class="selected"><a href="{{ path(route) }}">{{ title }}</a></li>
-                    {% else %}
-                    <li><a href="{{ path(route) }}">{{ title }}</a></li>
-                    {% endif %}
-                {% endfor %}
-                </ul>
+                                                                            <li><a href="/">Главная</a></li>
+                                                                                                <li><a href="/nomera-u-zeny.html">Номера и цены</a></li>
+                                                                                                <li><a href="/kak-dobratza.html">Как добраться</a></li>
+                                                                                                <li class="selected"><a href="/rasvlecheniya.html">Развлечение</a></li>
+                                                                                                <li><a href="/region.html">Регион</a></li>
+                                                                                                <li><a href="/uslugi.html">Услуги</a></li>
+                                                    </ul>
             </div>
 
             <div id="content">
-                {% block content %}
-                {% endblock  %}
+                <div class="entry">
+    <h1 class="entry-title">Развлечение</h1>
+    <ul class="ticked">
+        <li>
+            Прогулка на катере по баргузинскому и чивыркуйскому заливу.<br/>
+        </li>
+        <li>Экскурсии по чивыркуйскому заливу с посещением горячих источников.</li>
+        <li>Экскурсии по баргузинской долине (богиня Янжима).</li>
+        <li>Рыбалка в летний и зимний период.</li>
+        <li>Восхождение на п-ов.Святой нос, лежбище ушканов, прогулка по Байкалу, дайвинг, катамараны, банан и прочие водные развлечения.</li>
+        <li>А также недалеко расположен оздоровительный центр, в котором работают массажист, к вашим услугам кедровые фитобочки, апликации сувинской глиной.</li>
+        <li>Парк-музей «Светлая поляна» - музейный комплекс под открытым небом, выполненный в виде городища-острога времен освоения Баргузинского края казаками первопроходцами 17 века. На территории которого расположены русская православная Церковь Покрова Пресвятой Богородицы, деревянные дома древнерусской архитектуры, сибирская баня и многое другое.</li>
+    </ul>
+</div>
             </div>
 
 <!--            <div class="sidebar-images">
