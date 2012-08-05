@@ -34,7 +34,23 @@ $app->get('/kak-dobratza.html', function() use($app, $navigation) {
 })->bind('kak_dobratza');
 
 $app->get('/nomera-u-zeny.html', function() use($app, $navigation) {
-    return $app['twig']->render('nomera-u-zeny.twig', array('navigation' => $navigation));
+
+    $images = array(
+        'DSC04732.jpg',
+        'DSC04733.jpg',
+        'DSC04734.jpg',
+        'DSC04736.jpg',
+        'DSC04738.jpg',
+        'DSC04739.jpg',
+        'DSC04745.jpg',
+        'DSC04746.jpg',
+        'DSC04747.jpg',
+        'DSC04748.jpg',
+        'DSC04700.jpg',
+        'DSC04701.jpg',
+    );
+
+    return $app['twig']->render('nomera-u-zeny.twig', array('navigation' => $navigation, 'images' => $images));
 })->bind('nomera_u_zeny');
 
 $app->get('/rasvlecheniya.html', function() use($app, $navigation) {
