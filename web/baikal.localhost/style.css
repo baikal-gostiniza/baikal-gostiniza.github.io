@@ -1,0 +1,362 @@
+/*  
+Theme Name: Ginger Ninja! v2
+Description: The new Ginger Ninja! theme.
+Version: 1.0
+Author: Donny Burnside
+Author URI: http://www.ginger-ninja.net/
+*/
+
+/* Generic Styling */
+
+body {
+    background: transparent url(images/abstract_background_orange.jpg);
+    font-family: Arial, sans-serif;
+    /*	font-size:62.5%;  Sets default font size to 10px */
+    color:#222222;
+}
+
+img {
+    border:0;
+}
+
+a {
+    text-decoration:none;
+    color: #336A99;
+}
+a:hover {
+    text-decoration:none;
+    color:#6CC7DC;
+}
+
+/* Structure */
+
+#wrapper {
+    margin:0 auto;
+    width:780px;
+    background:#ffffff;
+    font-size:11pt;
+
+}
+#header {
+    height:244px;
+    padding-top: 5px;
+    padding-left: 20px;
+    background:url(images/cwetoi_noc.jpg) no-repeat;
+    position: relative;
+    /*        text-shadow: #c0c0c0 3px 3px 1px;*/
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: orange;
+}
+
+#header .page-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 27pt;
+    /*    height:160px;*/
+}
+
+#header .page-title a {
+    display: block;
+    /*  height:160px;*/
+}
+
+#header .page-title span {
+    color: orange;
+    /*  margin-left: 512px;*/
+    display: inline-block;
+    /*  width: 190px;*/
+    text-align: center;
+    vertical-align: middle;
+}
+
+#header .page-title span:hover {
+    text-decoration: underline;
+}
+
+
+
+#header small {
+    font-size: 14pt;
+    width: 190px;
+    text-align: center;
+}
+
+#menu {
+    height:35px;
+    line-height:35px;
+    background:url(images/bg-menu.png) repeat-x;
+    padding:0 10px;
+}
+#sidebar {
+    float:right;
+    width:180px;
+    background:#efefef;
+    margin-right:10px;
+}
+#content {
+    /*	width:500px;*/
+    padding-top: 10px;
+}
+#footer {
+    clear:both;
+    text-align: center;
+    color: darkgray;
+    padding: 3px;
+    /*	background:url(images/kinder/collection.jpg) no-repeat;*/
+}
+
+/* Entries */
+
+.entry {
+    padding:5px 10px;
+    text-align:justify;
+    line-height:1.75em;
+}
+.entry-title {
+    font-size:1.90em;
+    font-weight:normal;
+    letter-spacing:-1px;
+    margin-bottom: 10px;
+    color: #336A99;
+}
+
+.entry h2 {
+    font-size:1.90em;
+    font-weight:normal;
+    letter-spacing:-1px;
+    margin-bottom: 10px;
+    color: #336A99;
+}
+
+.entry p,
+.entry ul,
+.entry ol {
+    margin-bottom: 1.1em;
+}
+
+.entry img {
+    /*    float: left;*/
+    margin: 0px 5px 5px 0px;
+}
+
+.entry ul, .entry ol {
+    list-style-position: outside;
+}
+
+.date {
+    font-size:0.9em;
+    color:#bbb;
+    cursor:default;
+    letter-spacing:1px;
+}
+.comments {
+    margin-top:-1em;
+}
+.comments a {
+    color:#6CC7DC;
+    background:url(images/icon-comment.png) no-repeat 0px 2px;
+    padding-left:20px;
+    padding-right:2px;
+}
+.comments a:hover {
+    color:#B4C835;
+}
+
+.daily-routine .col-1 {
+    white-space: nowrap;
+    width: 100px;
+    vertical-align: top;
+}
+
+.daily-routine th,
+.daily-routine td {
+    padding: 1px 2px;
+}
+
+.daily-routine thead th,
+.daily-routine thead td {
+    border-bottom: 1px solid black;
+}
+
+.daily-routine tr:hover {
+    background: #d1d1d1;
+}
+
+.daily-routine tbody td {
+    text-align: left;
+}
+
+/* Menu */
+
+#menu ul {
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+}
+#menu li {
+    float:left;
+}
+#menu li a {
+    padding:0 15px;
+    display:block;
+    color:#ffffff;
+    margin-right:2px;
+}
+#menu li a:hover,
+#menu li.selected a {
+    text-decoration: underline;
+}
+#menu li.selected a {
+    background: orange;
+    color: #fff;
+}
+
+#menu li + li a:hover,
+#menu li + li.selected a {
+    /*    background: yellow;*/
+    /*    color: #000;*/
+    text-decoration: underline;
+
+}
+#menu li + li + li a:hover,
+#menu li + li + li.selected a {
+    color: #fff;
+    /*    background: green;*/
+}
+
+#menu li + li + li + li a:hover,
+#menu li + li + li + li.selected a {
+    /*    background: orange;*/
+    color: #fff;
+}
+#menu li + li + li + li + li a:hover {
+    /*    background:  fuchsia;*/
+    color: #fff;
+}
+
+
+
+/* Sidebar */
+
+#sidebar ul {
+    /*list-style-type:none;*/
+    list-style-position: inside;
+    margin-top:10px;
+}
+#sidebar li {
+
+}
+#sidebar li a {
+    display:block;
+    height:20px;
+    line-height:20px;
+    color:#222222;
+    padding-left:5px;
+    border-bottom:1px solid #dddddd;
+}
+#sidebar li a:hover {
+    background:#edebed;
+    color:#6CC4D8;
+}
+#sidebar-bottom {
+    height:20px;
+    background:url(images/bg-sidebar-bottom.gif) no-repeat top center;
+}
+
+.sidebar-images{
+    background: #fff;
+    padding: 0px;
+    width: 140px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.sidebar-images .image {
+    margin-top: 5px;
+}
+
+/* Footer */
+
+#footer-valid {
+    float:left;
+    padding-top:55px;
+    padding-left:20px;
+    cursor:default;
+    color:#ffffff;
+}
+#footer-valid a {
+    color:#ffffff;
+    text-decoration:none;
+}
+#footer-valid a:hover {
+    color:#ffffff;
+    text-decoration:underline;
+}
+
+/* Heading's */
+h1,h2 {
+    font-family: Georgia;
+}
+
+h1 {
+    font-size:2.5em;
+    font-weight:normal;
+    cursor:default;
+    letter-spacing:1px;
+    color:#aaaaaa;
+    text-align: center;
+}
+
+h2 {
+    
+}
+
+/* Feed */
+
+#feed {
+    height:25px;
+    width:136px;
+    background:url(images/bg-feed.gif) no-repeat;
+    margin:0 auto;
+    padding-left:16px;
+    color: #fff;
+}
+.feed-button {
+    background: url('images/icons/telephone.png') no-repeat;
+    padding-left: 20px;
+    /*	display:block;
+        width:100px;
+        height:25px;
+    */    text-decoration: none;
+}
+a:hover.feed-button {
+    background-position:0 -25px;
+}
+
+
+#footer .geo,
+#footer .adr {
+    visibility: hidden;
+}
+
+.entry {
+    /*    font*/
+}
+
+.entry dt
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.entry dd
+{
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+.ticked {
+    list-style-image: url('/images/tick.png');
+}
